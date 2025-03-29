@@ -1,0 +1,18 @@
+Metadata-Version: 2.4
+Name: src
+Version: 0.0.1
+Summary:  A small package for Book Recoommender System 
+Home-page: https://github.com/Techexpvaishnavi/Books-Recommender-System-Using-Machine-Learning
+Author: Techexpvaishnavi
+Author-email: vg309587@gmail.com
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: streamlit
+Requires-Dist: numpy
+Dynamic: author
+Dynamic: author-email
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
