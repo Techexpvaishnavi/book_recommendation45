@@ -4,10 +4,10 @@ import numpy as np
 
 st.header("Books Recommender System using Machine Learning")
 
-model = pickle.load(open('C:\\Users\\Kartik\\Desktop\\book-recomd\\artifacts\\model.pkl','rb'))
-book_name = pickle.load(open("C:\\Users\\Kartik\\Desktop\\book-recomd\\artifacts\\book_name.pkl","rb"))
-pivot_table = pickle.load(open("C:\\Users\\Kartik\\Desktop\\book-recomd\\artifacts\\book_pivot.pkl","rb"))
-final_rating = pickle.load(open("C:\\Users\\Kartik\\Desktop\\book-recomd\\artifacts\\final_rating.pkl","rb"))
+model = pickle.load(open('artifacts/model.pkl','rb'))
+book_name = pickle.load(open('artifacts/book_name.pkl', 'rb'))
+pivot_table = pickle.load(open('artifacts/book_pivot.pkl',"rb"))
+final_rating = pickle.load(open('artifacts/final_rating.pkl',"rb"))
 
 
 
